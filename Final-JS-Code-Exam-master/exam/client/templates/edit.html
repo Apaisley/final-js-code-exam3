@@ -1,0 +1,14 @@
+<h1> Hello edit</h1>
+
+<h2> I should be showing an editing form </h2>
+<div ng-controller="updateCtrl" ng-submit="editPost()">
+	<form  method="post">
+		name<input type="text" ng-model="post.name" >
+
+		Age<input type="text" ng-model="post.age">
+
+		Occupation<input type="text" ng-model="post.occupation" >
+		<input type="submit">
+	</form>
+	<button ng-click="deletePost()">delete</button>
+</div>

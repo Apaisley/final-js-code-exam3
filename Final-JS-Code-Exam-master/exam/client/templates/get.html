@@ -1,0 +1,12 @@
+<h1> Hello get</h1>
+
+<h2> I should be showing the data in the form of a table</h2'
+
+ <table>
+		<tr ng-repeat="posts in post">
+			<th><a href="#!/update?p={{posts._id}}">{{posts.name}}</a></th>
+			<td>{{posts.age}}</td>
+			<td>{{posts.occupation}}</td>
+		</tr>
+</table>
+  

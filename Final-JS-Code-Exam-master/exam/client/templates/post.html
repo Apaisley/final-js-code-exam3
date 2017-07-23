@@ -1,0 +1,11 @@
+<h1> Hello post</h1>
+
+<h2> I should be a posting form </h2>
+<<div ng-controller="postCtrl" ng-submit="createPost()">
+	<form  method="post">
+		Name<input type="text" ng-model="post.name" placeholder="">
+		Age<input type="text" ng-model="post.age" placeholder="">
+		Occupation<input type="text" ng-model="post.occupation" placeholder="">
+		<input type="submit">
+	</form>
+</div>
